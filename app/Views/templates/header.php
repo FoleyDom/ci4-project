@@ -7,6 +7,3 @@
 
 <body>
     <h1><?= esc($title) ?></h1>
-</body>
-
-</html>
