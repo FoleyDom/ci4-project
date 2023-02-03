@@ -38,5 +38,25 @@ class News extends BaseController
             . view('news/view')
             . view('templates/footer');
     }
-}
 
+    public function create()
+    {
+
+        helper('form');
+
+        // Checks if the form has been submitted
+        if (!$this->request->is('post')) {
+
+            // If not, display the form
+            return view('templates/header', ['title' => 'Create a news item'])
+                . view('news/create')
+                . view('templates/footer');
+        }
+
+        $post = $this->request->getPost(['title', 'body']);
+
+        //Checks whether the submitted data passed the validation rules.
+        if()
+    }
+
+}
