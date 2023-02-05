@@ -78,3 +78,5 @@ class News extends BaseController
             . view('templates/footer');
     }
 }
+
+
