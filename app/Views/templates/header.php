@@ -6,4 +6,4 @@
 </head>
 
 <body>
-    <h1><?= esc($title) ?></h1>
+    <a href="/news"><h1><?= esc($title) ?></h1></a>

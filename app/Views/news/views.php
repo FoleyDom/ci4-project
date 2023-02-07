@@ -1,4 +1,4 @@
-<h2><?= esc($new['title']) ?></h2>
+<h2><?= esc($news['title']) ?></h2>
 
 
-<p><?= esc($new['body']) ?></p>
+<p><?= esc($news['body']) ?></p>
